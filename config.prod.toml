@@ -10,7 +10,18 @@ Paginate = 5
   identifier = "home"
   url = "/"
 
+DefaultContentLanguage = "en"
+
+[Languages]
+[Languages.en]
+title = "My blog"
+weight = 1
+
+[Languages.pt]
+title = "Meu blog"
+weight = 2
+
 # datocms:start
-title = "Creative Inc."
-languageCode = "en"
+#title = "Creative Inc."
+#languageCode = "en"
 # datocms:end
